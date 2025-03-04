@@ -6,7 +6,8 @@
     <title>Admin User Table</title>
     <style>
         div{
-            background-color: #c6c1c1;
+            background-color: #d6d6d6;
+            padding: 2px;
         }
         body {
             font-family: Arial;
@@ -14,8 +15,8 @@
             background-color: #ecf1f6;
         }
         table {
-            width: 60%;
-            margin: 20px auto;
+            width: 100%;
+            margin: 10px auto;
             border-collapse: collapse;
             background-color: rgb(255, 255, 255);
         }
@@ -25,16 +26,19 @@
             text-align: center;
         }
         th {
-            background-color: rgb(10, 173, 243);
+            background-color: rgb(25, 120, 236);
             color: white;
         }
 
         tr:nth-child(even) {
-            background-color: #f5ebeb;
+            background-color: #ececec;
         }
      
         tr:hover {
             background-color: #c6c1c1;
+        }
+        caption{
+            padding: 10px ;
         }
     </style>
 </head>
@@ -47,25 +51,25 @@
                 <th>ID</th>
                 <th>USER NAME</th>
                 <th>EMAIL</th>
-                <th> </th>
+                <th>ROLE</th>
             </tr>
             <tr>
                 <td>1</td>
                 <td>admin01</td>
                 <td>admin01@example.com</td>
-                <td> </td>
+                <td>Administator </td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>user123</td>
                 <td>user123@example.com</td>
-                <td> </td> 
+                <td>User</td> 
             </tr>
             <tr>
                 <td>3</td>
                 <td>moderator56</td>
                 <td>moderator56@example.com</td>
-                <td> </td>
+                <td>Moderator</td>
                 
             </tr>
         </table>

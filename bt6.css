@@ -1,0 +1,54 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.center {
+    text-align: center;
+    border: 3px solid green;  
+    padding: 10px;
+    margin: 10px auto;  
+    width: 1490px;
+}
+
+.highlight-red {
+    color: red;
+}
+
+.menu {
+    background-color: rgba(209, 209, 209, 0.975);
+    padding: 15px;
+    width:100%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.color-box {
+    background-color: white;
+    border-left: 7px solid green;
+    padding: 10px;
+    margin: 10px auto;
+    
+}
+
+.color1 { color: rgb(161, 74, 42); }
+.color2, .color4 { color: orangered; }
+.color3, .color5 { color: blue; }
+
+.btn {
+    background-color: rgb(64, 142, 64);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 10px auto;
+}
+.mainn{
+    padding-left: 15px;
+}
